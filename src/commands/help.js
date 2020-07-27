@@ -6,10 +6,10 @@ module.exports = () => async (message) => {
     .addFields({
       name: "Help Links",
       value: `[GitHub](https://github.com/samRBLX/moblox-bot 'Documentation')
-        [Support Discord](https://discord.gg/SYtrv9m 'optional hovertext')
-        [Learn how to use it](https://github.com/samRBLX/moblox-bot/blob/master/README.md 'optional hovertext')`,
+        [Support Discord](https://discord.gg/vDsyKA 'optional hovertext')
+        ('optional hovertext')`,
     })
-    .setFooter("moblox by imacodr#0930")
+    .setFooter("BloxyBorg by Wyatt.#7553")
     .setTimestamp()
     .setThumbnail(message.author.avatarURL());
   await message.author.send(embed);
